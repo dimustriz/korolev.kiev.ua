@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="Utf-8"?>
+<simpleviewerGallery 
+  maxImageWidth="1000" 
+  maxImageHeight="1000" 
+  textColor="0x000000" 
+  frameColor="0xBFAFED" 
+  frameWidth="10" 
+  stagePadding="20" 
+  thumbnailColumns="5" 
+  thumbnailRows="1" 
+  navPosition="top" 
+  title="" 
+  enableRightClickOpen="true" 
+  backgroundImagePath="" 
+  imagePath="" 
+  thumbPath="">
+
+<image>
+	<filename>P1010304.jpg</filename>
+</image>
+<image>
+	<filename>CIMG6178.jpg</filename>
+</image>
+<image>
+	<filename>boat_3.jpg</filename>
+</image>
+<image>
+	<filename>dk_profile.jpg</filename>
+</image>
+<image>
+	<filename>DSC06317.jpg</filename>
+</image>
+<image>
+	<filename>DSC06167.jpg</filename>
+</image>
+<image>
+	<filename>DSC06003.jpg</filename>
+</image>
+<image>
+	<filename>DSC06602.jpg</filename>
+</image>
+<image>
+	<filename>DSC06686.jpg</filename>
+</image>
+<image>
+	<filename>DSC06741.jpg</filename>
+</image>
+</simpleviewerGallery>

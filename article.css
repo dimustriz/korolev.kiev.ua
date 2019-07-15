@@ -1,0 +1,88 @@
+@import url(sub.css);
+
+#content .title {margin-bottom: 0; padding-bottom: 0.25em; border-bottom: none;
+  text-align: center;}
+#content .byline {padding: 0 0 1em; margin: 0; text-align: center; text-transform: none;}
+
+#content .ishinfo {text-align: center; border-bottom: 1px dashed #B2B2B2;
+  padding-bottom: 1em; margin-bottom: 1.5em;}
+#content h2 {margin: 1.25em 0 0.25em; font-size: 1.5em; color: #000;}
+#content p {margin-bottom: 1.33em;}
+
+.item {text-align: left; font: 1.0em Verdana, Times;
+  padding: 0.75em 1em 0.5em; margin: 0.25em 0 0.5em;}
+.reply {font: 1.2em Verdana, Times; margin-bottom: 0.5em;
+  text-align: left; padding: 0.75em 1em 0; margin: 0.25em 0 0.5em;}
+.reply_date {font: 1em Verdana, Times; 
+  text-align: left; padding: 0; margin: 0;}
+.reply_date b {font: 1em Georgia, Times, serif;}
+.reply_author {font: italic 1.1em Times, serif; letter-spacing: 1px; margin: 0 0 1.5em;
+  text-align: left; padding-top: 1em; border-top: 1px dashed #B2B2B2;}
+.reply_link {text-align: left; font: 1.0em Tahoma, Times;
+  padding: 0 1em 0; margin: 0;}
+.capt {text-align: left; font: 1.0em Tahoma, Times;
+  padding: 1em 1.5em 0.5em; margin: 0;}
+
+#metastuff {text-align: left;
+  padding: 0.75em 1em 0.5em; margin: 0.25em 0 0.5em; background: #E8DFFF;
+  border: 1px dashed #B2B2B2; border-width: 1px 0;}
+#content #metastuff li, #content #metastuff p {display: inline; padding: 0; margin: 0; background: none;}
+#content #metastuff a {border-bottom-width: 0;}
+#content #metastuff a:hover {border-bottom-width: 1px;}
+#content #metastuff b {margin: 0 0.5em;}
+#content #metastuff p a {background: url(pix/comment_tn.gif) 0 0 no-repeat;
+  padding-left: 20px;}
+
+#content a.warning {float: left; position: relative; overflow: hidden;
+  width: 50px; height: 50px; border: none; margin: 0 10px 10px 0;
+  background: url(pix/warning.gif) bottom left no-repeat;}
+#content a.warning:hover img {visibility: hidden;}
+
+.illustration p {font: italic 95%/1.6em Verdana, serif;
+  border-top: 1px dashed #ccc; color: #333;
+  margin: 0; padding-top: 5px;}
+.illustration {float: right; margin: 0 0 20px 20px; text-align: center;}
+.otherway, .left {float: left; margin: 0 20px 20px 0;}
+.full {float: none; width: 540px; margin: 0;}
+.half {width: 270px;}
+.third {width: 180px;}
+.quarter {width: 135px;}
+
+.pict_l {
+    clear: both;
+    margin-left: 0px;
+    margin-right: 18px;   
+}
+
+.pict_r {
+    clear: both;
+    margin-left: 18px;
+    margin-right: 0px;   
+}
+
+.PopBoxImageSmall
+{
+   border: none 0px white;
+   cursor: url("pix/magplus.cur"), pointer;
+}
+.PopBoxImageSmall_l
+{
+    border: none 0px white;
+    cursor: url("pix/magplus.cur"), pointer;
+    clear: both;
+    margin-left: 0px;
+    margin-right: 18px;   
+}
+.PopBoxImageSmall_r
+{
+    border: none 0px white;
+    cursor: url("pix/magplus.cur"), pointer;
+    clear: both;
+    margin-left: 18px;
+    margin-right: 0px;   
+}
+.PopBoxImageLarge
+{
+    border: solid thin #CCCCFF;
+    cursor: url("pix/magminus.cur"), pointer;
+}
