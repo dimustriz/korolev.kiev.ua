@@ -98,13 +98,15 @@ pre code {font-size: 1em; line-height: 1.5em;} /* handle legacy articles until m
   .about #navbar #about a {
  background: url(pix/navbarlinkbg.gif) top left repeat-x; color: #3F3FFB;
 }
+body {font-size: 16px; line-height: 1.5; -webkit-text-size-adjust: 100%;}
 table {width: 100% !important; table-layout: fixed;}
-#main {float: none; font-size: 0.88em;
-  padding: 1.5em 0 1.5em 0px;
+#main {float: none; font-size: 1em;
+  padding: 1em 0;
   background: none;}
 #main {width: auto; }
+#main p {line-height: 1.8em;}
 .column {float: none;}
-#content {width: auto; padding: 0 15px; }
+#content {width: auto; padding: 0 15px; word-wrap: break-word; overflow-wrap: break-word; }
 #sidebar {width: auto; padding: 15px; }
 #sidebar li {float: left; margin-right: 8px; background: none;}
 #sidebar div {border-bottom: 0px; padding: 10px 0.5em;}
