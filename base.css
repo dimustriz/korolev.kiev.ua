@@ -1,4 +1,4 @@
-* {margin: 0; padding: 0;}
+* {margin: 0; padding: 0; box-sizing: border-box;}
 body {font: 13px  Verdana, sans-serif; line-height: 1; color: #333; background: #FFF;}
 
 a {text-decoration: none;}
@@ -76,16 +76,17 @@ pre code {font-size: 1em; line-height: 1.5em;} /* handle legacy articles until m
 /* Small screens version */
 @media screen and (max-width: 1000px) {
 #navbar {height: auto;
-  padding: 0 0 0 0;
+  padding: 0;
   background: #B7B7FF;
   border-top: 5px solid #333;
   font: 18px Georgia, Times, serif; 
   overflow: hidden;
-  min-width: 60px;}
-#navbar li {float: left; padding: 0 13px 0 3px; margin-right: 5px;
+  min-width: 0;
+  display: flex; flex-wrap: wrap;}
+#navbar li {padding: 0 10px 0 3px; margin-right: 0;
   background: url(pix/diamond-navbar.gif) 100% 66% no-repeat;}
 #navbar li a {display: block; padding: 0.75em 0 0.25em;
-  text-transform: uppercase; color: #FFFBE6;}
+  text-transform: uppercase; color: #FFFBE6; font-size: 16px;}
 #navbar #about {display: none;}
 #navbar #humor {background: none;}
 #navbar a:hover,
@@ -97,16 +98,24 @@ pre code {font-size: 1em; line-height: 1.5em;} /* handle legacy articles until m
   .about #navbar #about a {
  background: url(pix/navbarlinkbg.gif) top left repeat-x; color: #3F3FFB;
 }
-#main {float: left; font-size: 0.88em;
+table {width: 100% !important; table-layout: fixed;}
+#main {float: none; font-size: 0.88em;
   padding: 1.5em 0 1.5em 0px;
   background: none;}
 #main {width: auto; }
-#content {width: auto; padding: 0 25px 0 20px; }
-#sidebar {width: auto; padding-left: 15px; padding-top: 15px; }
+.column {float: none;}
+#content {width: auto; padding: 0 15px; }
+#sidebar {width: auto; padding: 15px; }
 #sidebar li {float: left; margin-right: 8px; background: none;}
 #sidebar div {border-bottom: 0px; padding: 10px 0.5em;}
 #masthead {display: none;}
 #ish a:link, #ish a:visited {top: -23px; left: 80%;}
+#footer {background-image: none;}
+#footer p {margin-left: 0; padding: 1em 15px; border-left: none;}
+img {max-width: 100%; height: auto;}
+pre, blockquote {overflow-x: auto; max-width: 100%;}
+.full {width: 100%;}
+.illustration {float: none; margin: 0 0 20px 0;}
 }
 
 
