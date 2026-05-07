@@ -1,4 +1,4 @@
-@import url(sub.css);
+@import url(sub.css?v=2);
 
 #content .title {margin-bottom: 0; padding-bottom: 0.25em; border-bottom: none;
   text-align: center;}

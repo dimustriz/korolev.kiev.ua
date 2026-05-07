@@ -1,2 +1,4 @@
 User-Agent: *
-Disallow: /nosuchdir
+Allow: /
+
+Sitemap: https://korolev.kiev.ua/sitemap.xml

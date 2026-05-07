@@ -118,6 +118,7 @@ img {max-width: 100%; height: auto;}
 pre, blockquote {overflow-x: auto; max-width: 100%;}
 .full {width: 100%;}
 .illustration {float: none; margin: 0 0 20px 0;}
+nobr {white-space: normal;}
 }
 
 
@@ -192,12 +193,4 @@ pre, blockquote {overflow-x: auto; max-width: 100%;}
 #search, input[type="text"], input[type="password"], textarea { background: #FBFAF4;
   border: 2px solid; border-color: #999 #D9D9D9 #D9D9D9 #999;}
 
-/* IE5.x/Win hacks */
 
-#ish a:link, #ish a:visited {height: 65px; voice-family: "\"}\""; voice-family: inherit; height: 52px;}
-
-/* IE5/Mac hacks */
-/*\*//*/
-#navbar {padding-top: 0.75em; height: 1.66em;}
-#navbar li a {display: inline;}
-/**/
