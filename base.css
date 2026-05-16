@@ -62,10 +62,10 @@ pre code {font-size: 1em; line-height: 1.5em;} /* handle legacy articles until m
 }
 #main {float: left; font-size: 0.88em;
   padding: 1.5em 0 1.5em 210px;
-  background: url(pix/threecolbg.gif) 794px 0 repeat-y;}
+  background: url(pix/threecolbg.gif) 794px 0 repeat-y; box-sizing: content-box;}
 #main {width: 750px; voice-family: "\"}\""; voice-family: inherit;}
-#content {width: 540px; padding: 0 25px 0 20px; voice-family: "\"}\""; voice-family: inherit;}
-#sidebar {width: 140px; padding-left: 15px; voice-family: "\"}\""; voice-family: inherit; }
+#content {width: 540px; padding: 0 25px 0 20px; voice-family: "\"}\""; voice-family: inherit; box-sizing: content-box;}
+#sidebar {width: 140px; padding-left: 15px; voice-family: "\"}\""; voice-family: inherit; box-sizing: content-box;}
 #sidebar div {border-bottom: 1px dashed #B2B2B2; padding: 10px 0.5em;}
 #masthead {position: absolute; z-index: 5; top: 0; left: 22px;}
 #masthead a {display: block; background: #81817C; width: 156px;}
