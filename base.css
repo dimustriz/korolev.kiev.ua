@@ -65,6 +65,11 @@ pre code {font-size: 1em; line-height: 1.5em;} /* handle legacy articles until m
   background: url(pix/threecolbg.gif) 794px 0 repeat-y; box-sizing: content-box;}
 #main {width: 750px; voice-family: "\"}\""; voice-family: inherit;}
 #content {width: 540px; padding: 0 25px 0 20px; voice-family: "\"}\""; voice-family: inherit; box-sizing: content-box;}
+#content-intro, #content-archive {width: 540px; padding: 0 25px 0 20px; box-sizing: content-box;}
+.start #main {display: grid; grid-template-columns: 585px 155px; grid-template-areas: "intro sidebar" "archive sidebar";}
+.start #content-intro  {grid-area: intro;}
+.start #content-archive {grid-area: archive;}
+.start #sidebar        {grid-area: sidebar;}
 #sidebar {width: 140px; padding-left: 15px; voice-family: "\"}\""; voice-family: inherit; box-sizing: content-box;}
 #sidebar div {border-bottom: 1px dashed #B2B2B2; padding: 10px 0.5em;}
 #masthead {position: absolute; z-index: 5; top: 0; left: 22px;}
@@ -102,12 +107,19 @@ body {font-size: 16px; line-height: 1.5; -webkit-text-size-adjust: 100%;}
 table {width: 100% !important; table-layout: fixed;}
 #main {float: none; font-size: 1em;
   padding: 1em 0;
-  background: none;}
+  background: none;
+  display: flex; flex-direction: column;}
 #main {width: auto; }
 #main p {line-height: 1.8em;}
 .column {float: none;}
-#content {width: auto; padding: 0 15px; word-wrap: break-word; overflow-wrap: break-word; }
-#sidebar {width: auto; padding: 15px; }
+#content {width: auto; padding: 0 15px; word-wrap: break-word; overflow-wrap: break-word; order: 1;}
+#content-intro, #content-archive {width: auto; padding: 0 15px; word-wrap: break-word; overflow-wrap: break-word;}
+.start #main {display: flex; flex-direction: column;}
+.start #content-intro  {order: 0;}
+.start #sidebar        {order: 1; margin-top: 1em; padding-top: 0;}
+.start #sidebar::before {content: ''; display: block; border-top: 1px dashed #B2B2B2; margin: 0 0 1.5em;}
+.start #content-archive {order: 2;}
+#sidebar {width: auto; padding: 15px; order: 0;}
 #sidebar li {float: left; margin-right: 8px; background: none;}
 #sidebar div {border-bottom: 0px; padding: 10px 0.5em;}
 #masthead {display: none;}
@@ -186,7 +198,7 @@ nobr {white-space: normal;}
 .issn b {font: 1.2em Georgia, Times, serif; letter-spacing: 1px;}
 
 .hron {}
-.hron b {font: 1.0em Georgia, Times, serif; letter-spacing: 1px; margin-right: 10px; }
+.hron b {font: 1.0em Georgia, Times, serif; letter-spacing: 1px; margin-right: 10px; display: inline-block; min-width: 6em; }
 
 #footer .copyright {padding-left: 25px; background: url(pix/diamond-gray.gif) 10px 50% no-repeat;}
 
