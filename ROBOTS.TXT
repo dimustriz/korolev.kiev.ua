@@ -2,3 +2,4 @@ User-Agent: *
 Allow: /
 
 Sitemap: https://korolev.kiev.ua/sitemap.xml
+LLMs: https://korolev.kiev.ua/llms.txt
