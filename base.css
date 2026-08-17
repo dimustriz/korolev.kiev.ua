@@ -117,7 +117,7 @@ table {width: 100% !important; table-layout: fixed;}
 .start #main {display: flex; flex-direction: column;}
 .start #content-intro  {order: 0;}
 .start #sidebar        {order: 1; margin-top: 1em; padding-top: 0;}
-.start #topiclist      {border-top: 1px dashed #B2B2B2; padding-top: 1.5em;}
+.start #sidebar-divider {display: block; border-bottom: 1px dashed #B2B2B2; padding-bottom: 1em; margin-bottom: 1.5em;}
 .start #content-archive {order: 2;}
 #sidebar {width: auto; padding: 15px; order: 0;}
 .issn {padding-left: 1em;}

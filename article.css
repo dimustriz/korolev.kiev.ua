@@ -1,4 +1,6 @@
-@import url(sub.css?v=2);
+@import url(sub.css?v=3);
+
+#sidebar-divider { display: none; }
 
 #content .title {margin-bottom: 0; padding-bottom: 0.25em; border-bottom: none;
   text-align: center;}
